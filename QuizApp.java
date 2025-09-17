@@ -4,27 +4,27 @@ import java.awt.event.*;
 
 public class QuizApp extends JFrame implements ActionListener {
     String[] questions = {
-            "1. Who is known as the Father of the Nation in India?",
+            "1. Which is the largest ocean in the world?",
             "2. What is the capital city of India?",
-            "3. Who was the first Prime Minister of India?",
-            "4. Which is the national animal of India?",
+            "3. Who was the first man to walk on the moon?",
+            "4. Which planet is known as the Red Planet?",
             "5. In which year did India get Independence?"
 
     };
 
     String[][] options = {
-            {"Mahatma Gandhi", "Jawaharlal Nehru", "Subhash Chandra Bose", "Bhagat Singh"},
+            {"Southern Ocean", "Antarctic Ocean", "Indian Ocean", "Pacific Ocean"},
             {"Mumbai", "New Delhi", "Kolkata", "Chennai"},
-            {"Mahatma Gandhi", "Sardar Patel", "Jawaharlal Nehru", "Dr. B. R. Ambedkar"},
-            {"Lion", "Tiger", "Elephant", "Peacock"},
+            {"Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Michael Collins"},
+            {"Venus", "Saturn", "Earth", "Mars"},
             {"1942", "1947", "1950", "1962"}
     };
 
     String[] answers = {
-            "Mahatma Gandhi",
+            "Pacific Ocean",
             "New Delhi",
-            "Jawaharlal Nehru",
-            "Tiger",
+            "Neil Armstrong",
+            "Mars",
             "1947"
     };
 
